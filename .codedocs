@@ -1,0 +1,17 @@
+# CodeDocs Configuration File
+PROJECT_NAME = Doxygen
+EXCLUDE                = addon/ \
+                         doc/ \
+                         jquery/ \
+                         qtools/ \
+                         testing/ \
+                         cmake/ \
+                         examples/ \
+                         libmd5/ \
+                         templates/ \
+                         winbuild/ \
+                         src/logos.cpp \
+                         src/lodepng.cpp
+FILE_PATTERNS          = *.h \
+                         *.cpp \
+                         *.md
