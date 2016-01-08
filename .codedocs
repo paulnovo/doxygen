@@ -1,4 +1,4 @@
-# CodeDocs Configuration File
+# CodeDocs.xyz Configuration File
 PROJECT_NAME = Doxygen
 EXCLUDE                = addon/ \
                          doc/ \
@@ -15,3 +15,4 @@ EXCLUDE                = addon/ \
 FILE_PATTERNS          = *.h \
                          *.cpp \
                          *.md
+USE_MDFILE_AS_MAINPAGE = src/doxygen.md
